@@ -64,7 +64,6 @@ if selected_file:
             st.write("- Best for comparing different categories or groups.")
             plt.bar(df[x_axis],df[y_axis])
 
-)
 
 
 
