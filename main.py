@@ -42,7 +42,7 @@ if selected_file:
         x_axis = st.selectbox("select X-axis",options=columns, index=None)
         y_axis = st.selectbox("select Y-axis",options=columns, index=None)
 
-        plot_list = ['Scatter plot','Bar plot','Violin plot']
+        plot_list = ['Scatter plot','Bar plot']
 
         selected_plot = st.selectbox("select a plot to generate", plot_list, index=None)
 
